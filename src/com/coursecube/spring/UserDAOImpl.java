@@ -27,6 +27,17 @@ public class UserDAOImpl implements UserDAO {
 		System.out.println("User update(User user) ");
 		
 	}
+
+
+	@Override
+	public void deleteUser(int cid) {
+		System.out.println("User deleted");
+		System.out.println("User deleted");
+		System.out.println("User deleted");
+		System.out.println("User deleted");
+		System.out.println("User deleted");
+		
+	}
 	
 	
 
