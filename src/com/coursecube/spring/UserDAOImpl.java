@@ -16,6 +16,17 @@ public class UserDAOImpl implements UserDAO {
 		JdbcTemplate.update(sql,user.getUsername(),user.getPassword(),user.getFirstName(),user.getLastName(),user.getEmail(),user.getPhone(),user.getActive());
 		
 	}
+
+
+	@Override
+	public void update(User user) {
+		System.out.println("User update(User user) ");
+		System.out.println("User update(User user) ");
+		System.out.println("User update(User user) ");
+		System.out.println("User update(User user) ");
+		System.out.println("User update(User user) ");
+		
+	}
 	
 	
 
