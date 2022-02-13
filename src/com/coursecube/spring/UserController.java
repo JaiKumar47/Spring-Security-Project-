@@ -32,6 +32,7 @@ public class UserController {
 	
 	public String showIndexPage(Model model) {
 		System.out.println("**showIndexPage**");
+		System.out.println("**showIndexPage**from brower");
 		
 	}
 	
